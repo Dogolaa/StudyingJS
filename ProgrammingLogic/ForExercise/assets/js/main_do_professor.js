@@ -10,10 +10,12 @@ const elementos = [
 
 for (let i = 0; i < elementos.length; i++) {
   let { tag, texto } = elementos[i];
-  let p = document.createElement(tag);
+  let tagCriada = document.createElement(tag);
+  //tagCriada.innerHTML = texto
+  //tagCriada.innerText = texto
   let textoNode = document.createTextNode(texto);
-  p.appendChild(textoNode);
-  div.appendChild(p);
+  tagCriada.appendChild(textoNode);
+  div.appendChild(tagCriada);
 }
 
 container.appendChild(div);
