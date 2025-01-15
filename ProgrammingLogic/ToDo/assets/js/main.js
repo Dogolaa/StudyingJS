@@ -74,3 +74,5 @@ document.addEventListener('click', function (e) {
     salvarTarefas();
   }
 });
+
+adicionaTarefasSalvas();
