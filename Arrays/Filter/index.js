@@ -1,4 +1,5 @@
 // Filter filtra o array '-' e retorna um array com a mesma quantidade de elementos ou menos
+// No filter retornamos verdadeiro quando queremos adicionar um valor no array e false quando nao queremos
 
 //Retorne os numeros maiores que 10
 const numero = [67, 56, 3, 24, 68, 8, 12, 43, 78, 23, 74, 1, 2, 4, 7];
