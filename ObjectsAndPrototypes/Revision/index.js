@@ -50,5 +50,6 @@ function Pessoa(nome, sobrenome) {
 
 //New cria um objeto vazio e atrela a palavra this a esse objetos
 const p2 = new Pessoa('Felipe', 'Dogo');
+Object.freeze(p1); // faz o p1 ter o mesmo comportamento de uma const
 
 console.log(p2);
