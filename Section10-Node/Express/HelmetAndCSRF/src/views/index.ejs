@@ -1,0 +1,20 @@
+<%- include('includes/head') %>
+<section class="container">
+  <h1><% if(typeof titulo !== 'undefined'){%> <%= titulo %> <%} %> <br /></h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nisi
+    explicabo saepe voluptatibus consequuntur et corporis maxime quos, doloribus
+    vitae voluptatum quisquam necessitatibus pariatur veritatis exercitationem
+    beatae officiis suscipit Ea!
+  </p>
+
+  <form action="/" method="post">
+    <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+    <label>Cliente</label>
+    <input type="text" name="cliente" />
+
+    <button>Enviar</button>
+  </form>
+</section>
+
+<%- include("includes/footer") %>
