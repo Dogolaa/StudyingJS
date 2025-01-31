@@ -1,1 +1,1 @@
-# Repositório Voltado para meus estudos de JavaSc
+# Repositório Voltado para meus estudos de JavaScript
