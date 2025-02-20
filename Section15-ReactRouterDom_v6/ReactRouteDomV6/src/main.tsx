@@ -7,6 +7,7 @@ import { About } from "./components/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Menu } from "./components/Menu";
 import { Post } from "./components/Post";
+import { Redirect } from "./components/Redirect";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/about" element={<About />}></Route>
         <Route path="/posts/:id" element={<Post />}></Route>
         <Route path="/posts" element={<Post />}></Route>
+        <Route path="/redirect" element={<Redirect />}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
