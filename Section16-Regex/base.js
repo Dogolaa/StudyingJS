@@ -10,4 +10,4 @@ Não canso de ouvir a Maria:
 "Joooooooooãooooooo, o café tá prontinho aqui. Veeemm"!
 `;
 
-module.exports = texto;
+module.exports = { texto };
