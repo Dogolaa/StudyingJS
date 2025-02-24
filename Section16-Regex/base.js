@@ -11,13 +11,16 @@ Não canso de ouvir a Maria:
 `;
 
 const arquivos = [
-  "Atenção.jpg",
-  "FOTO.jpeg",
-  "Meu gatinho.jpg",
-  "Meu gatinho.JPG",
-  "Meu gatinho.JPEG",
-  "Marido.png",
-  "lista de compras.txt",
+  'Atenção.jpg',
+  'FOTO.jpeg',
+  'Meu gatinho.jpg',
+  'Meu gatinho.JPG',
+  'Meu gatinho.JPEG',
+  'Marido.png',
+  'lista de compras.txt',
 ];
 
-module.exports = { texto, arquivos };
+// <.+>   .+   <\/.+>  <.+>   .+   <\/.+>
+const html = ' <p> Olá mundo </p>  <p> Olá de novo </p> ';
+
+module.exports = { texto, arquivos, html };

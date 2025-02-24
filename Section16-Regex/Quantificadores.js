@@ -1,4 +1,4 @@
-const { texto, arquivos } = require("./base");
+const { texto, arquivos } = require('./base');
 
 // * (opcionais) 0 ou n {0,}
 // + (obrigatorio) 1 ou n {1,}
