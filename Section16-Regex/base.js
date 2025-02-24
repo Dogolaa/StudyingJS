@@ -45,7 +45,13 @@ const ips = `Os ips sao:
 // <.+>   .+   <\/.+>  <.+>   .+   <\/.+>
 const html = ' <p> Olá mundo </p>  <p> Olá de novo </p> ';
 
+const html2 = `<p 
+data-teste='teste 
+class="teste teste"> 
+Olá mundo 
+</p>  <div> Sou a div </div>`;
+
 const alfabeto =
   'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz  0123456789 ';
 
-module.exports = { texto, arquivos, html, alfabeto, cpfs, cpfs2, ips };
+module.exports = { texto, arquivos, html, html2, alfabeto, cpfs, cpfs2, ips };
