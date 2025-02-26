@@ -1,1 +1,1 @@
-# Repositório Voltado para meus estudos de JavaScript
+# Repositório Voltado para meus estudos de JavaScript!
